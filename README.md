@@ -55,10 +55,16 @@ npm run start
 
 ## ৪. ছবি বদলানো
 
-- পণ্যের ছবি: `public/products/<slug>.jpg` (প্রতি পণ্যে ৩টি ভিউ — `-1`, `-2`, `-3` সফিক্সসহ)
-- হিরো ও লাইফস্টাইল ছবি: `public/hero/`
-- লোগো ও আইকন: `public/brand/`, `app/icon.png`, `app/apple-icon.png`
-- রেশিও: পণ্যের ছবি ৪:৩, হিরো ১৬:৯। আইকন রিজেনারেট করতে `node tools/make-icons.mjs`
+| ছবি | কোথায় আছে | কোন ফাইলে রেফারেন্স |
+| --- | --- | --- |
+| পণ্যের ছবি (প্রতিটি পণ্যে ২–৩টি ভিউ) | `public/products/*.jpg` | `lib/products.ts` → প্রতিটি পণ্যের `images: [{ src, alt }]` |
+| হোম পেজের হিরো | `public/hero/hero-hangers.jpg` | `app/page.tsx`, `app/layout.tsx` (OG ইমেজ) |
+| "আমাদের কথা" পেজের ছবি | `public/hero/lifestyle-balcony.jpg`, `lifestyle-laundry.jpg`, `detail-clips.jpg` | `app/about/page.tsx` |
+| লোগো ও অ্যাপ আইকন | `public/brand/`, `public/icons/`, `app/icon.png`, `app/apple-icon.png` | `app/layout.tsx`, `app/manifest.ts` |
+
+- সব ছবি ১২০০×৬৫৫ (১৬:৯) — নতুন ছবি তুললে এই সাইজে রিসাইজ করে একই ফাইলনামে বসিয়ে দিলেই হবে।
+- আইকন রিজেনারেট করতে: `node tools/make-icons.mjs`
+- প্রতিটি `Image`-এ `alt` টেক্সট অবশ্যই বদলান (SEO ও অ্যাক্সেসিবিলিটির জন্য)।
 
 ## ৫. সাইটে যা যা আছে
 

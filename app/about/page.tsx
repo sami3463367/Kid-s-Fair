@@ -29,7 +29,7 @@ export default function AboutPage() {
       <section className="relative isolate overflow-hidden bg-ink text-white">
         <Image
           src="/hero/lifestyle-balcony.jpg"
-          alt="বারান্দায় ঝোলানো স্টেইনলেস স্টিলের হ্যাঙ্গার"
+          alt="বারান্দায় ঝোলানো স্টেইনলেস স্টিলের কাপড় শুকানোর হ্যাঙ্গার"
           fill
           priority
           sizes="100vw"
@@ -114,20 +114,20 @@ export default function AboutPage() {
           </div>
 
           <Reveal className="space-y-3">
-            <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-line bg-canvas">
+            <div className="relative aspect-[16/10] overflow-hidden rounded-2xl border border-line bg-canvas">
               <Image
                 src="/hero/lifestyle-laundry.jpg"
-                alt="লন্ড্রিতে সার সাজানো স্টেইনলেস হ্যাঙ্গার"
+                alt="লন্ড্রির জায়গায় সারি করে ঝোলানো স্টেইনলেস স্টিলের হ্যাঙ্গার"
                 fill
                 sizes="(min-width: 1024px) 46rem, 100vw"
                 className="object-cover"
               />
             </div>
             <div className="grid grid-cols-2 gap-3">
-              <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-canvas">
+              <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-line bg-canvas">
                 <Image
                   src="/hero/detail-clips.jpg"
-                  alt="স্টেইনলেস ক্লিপের ক্লোজ-আপ"
+                  alt="স্টেইনলেস স্টিলের ক্লিপের ক্লোজ-আপ"
                   fill
                   sizes="(min-width: 1024px) 23rem, 50vw"
                   className="object-cover"
