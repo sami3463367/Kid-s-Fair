@@ -145,7 +145,7 @@ export function RegisterForm() {
       <div className="mt-4 flex items-start gap-2.5 rounded-2xl border border-line bg-white p-3.5">
         <ShieldIcon className="mt-0.5 h-5 w-5 shrink-0 text-brand-700" />
         <p className="text-[12px] leading-snug text-muted">
-          এটি ডেমো — তথ্য শুধু আপনার ব্রাউজারেই (localStorage) সংরক্ষিত হয়, কোনো সার্ভারে যায় না।{" "}
+          এটি ডেমো — তথ্য শুধু আপনার ব্রাউজারেই সংরক্ষিত হয়, কোনো সার্ভারে যায় না।{" "}
           {site.name} এর আসল অর্ডার প্রসেস সম্পূর্ণ হোয়াটসঅ্যাপে।
         </p>
       </div>
