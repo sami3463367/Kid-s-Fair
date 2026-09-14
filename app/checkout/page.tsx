@@ -32,7 +32,7 @@ export default function CheckoutPage() {
         <div>
           <h1 className="text-[1.5rem] leading-tight sm:text-[1.85rem]">অর্ডার শেষ করার পেজ</h1>
           <p className="mt-1.5 max-w-xl text-[13.5px] leading-relaxed text-muted">
-            নিচের ফর্মটি পূরণ করলে অর্ডারের সব তথ্যসহ একটি হোয়াটসঅ্যাপ বার্তা তৈরি হবে — শুধু Send
+            নিচের ফর্মটি পূরণ করলে অর্ডারের সব তথ্যসহ একটি হোয়াটসঅ্যাপ বার্তা তৈরি হবে — শুধু সেন্ড
             চাপলেই অর্ডার চলে আসবে আমার কাছে।
           </p>
         </div>

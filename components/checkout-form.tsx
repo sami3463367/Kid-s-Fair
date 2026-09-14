@@ -352,7 +352,7 @@ export function CheckoutForm() {
               {
                 id: "bkash" as const,
                 title: `bKash — ${toBn(site.bkashNumber)}`,
-                note: `পার্সোনাল নম্বরে ${bdt(totals.total)} সেন্ড মানি করে trxID হোয়াটসঅ্যাপে পাঠান`,
+                note: `পার্সোনাল নম্বরে ${bdt(totals.total)} সেন্ড মানি করে ট্রানজেকশন আইডি হোয়াটসঅ্যাপে পাঠান`,
                 icon: "📱",
               },
               {
@@ -445,7 +445,7 @@ export function CheckoutForm() {
           <p className="mt-2.5 flex items-start gap-1.5 text-[11.5px] leading-snug text-muted">
             <LockIcon className="mt-0.5 h-3.5 w-3.5 shrink-0 text-brand-700" />
             বাটনে চাপ দিলে আপনার মোবাইলে হোয়াটসঅ্যাপ খুলে যাবে এবং তথ্যসহ বার্তা আগে থেকেই লেখা
-            থাকবে — শুধু Send চাপুন।
+            থাকবে — শুধু সেন্ড চাপুন।
           </p>
         </div>
 

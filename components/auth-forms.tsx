@@ -96,7 +96,7 @@ export function RegisterForm() {
             type="email"
             value={form.email}
             onChange={(e) => set("email", e.target.value)}
-            placeholder="you@example.com"
+            placeholder="আপনার ইমেইল লিখুন"
             autoComplete="email"
           />
         </Field>
@@ -208,7 +208,7 @@ export function LoginForm() {
               setPassword(e.target.value);
               setError(null);
             }}
-            placeholder="আপনার পাসওয়ার্ড"
+            placeholder="আপনার পাসওয়ার্ড লিখুন"
             autoComplete="current-password"
           />
         </Field>

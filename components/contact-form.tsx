@@ -29,14 +29,14 @@ export function ContactForm() {
       form.message.trim(),
     ].join("\n");
     window.open(waLink(text), "_blank", "noopener,noreferrer");
-    push("আপনার বার্তা হোয়াটসঅ্যাপে প্রস্তুত — Send চাপুন", { icon: "💬" });
+    push("আপনার বার্তা হোয়াটসঅ্যাপে প্রস্তুত — সেন্ড চাপুন", { icon: "💬" });
   };
 
   return (
     <form onSubmit={submit} noValidate className="card space-y-3 p-4 sm:p-5">
       <h2 className="text-[1.05rem] font-extrabold">ফর্ম পূরণ করে পাঠান</h2>
       <p className="text-[13px] leading-relaxed text-muted">
-        নিচের তথ্যগুলো লিখলে হোয়াটসঅ্যাপে একটি প্রস্তুত বার্তা খুলে যাবে — শুধু Send চাপলেই হবে।
+        নিচের তথ্যগুলো লিখলে হোয়াটসঅ্যাপে একটি প্রস্তুত বার্তা খুলে যাবে — শুধু সেন্ড চাপলেই হবে।
       </p>
 
       <div className="grid gap-3 sm:grid-cols-2">
